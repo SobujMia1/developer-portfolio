@@ -9,6 +9,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -42,17 +43,32 @@ nav a {
 }
 
 .btn-primary {
-    width: 140px;
-    height: 50px;
+    width: 150px;
+    height: 64px;
     flex-shrink: 0;
-    border-radius: 10px;
+    border-radius: 5px;
     background: #FD6E0A;
     color: var(--White-Color, #FFF);
- 
+    font-family: Open Sans;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding: 15px 25px;
 
+}
+
+.header {
+    background-color: #FFF8F3;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-pic {
+    width: 500px;
+    /* height: 200px; */
+    /* flex-shrink: 0; */
 }
