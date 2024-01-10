@@ -70,7 +70,7 @@ nav a {
     align-items: center;
 }
 
-.banner-content{
+.banner-content {
     max-width: 500px;
 }
 
@@ -79,81 +79,116 @@ nav a {
     /* height: 200px; */
     /* flex-shrink: 0; */
 }
-.banner-gretting{
+
+.banner-gretting {
     font-size: 45px;
     color: #474747;
     margin-bottom: 0px;
 }
-.banner-title{
-color: var(--Dark-01, #181818);
-font-size: 85px;
-font-weight: 700;
-margin-top: 5px;
-margin-bottom: 20px;
+
+.banner-title {
+    color: var(--Dark-01, #181818);
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
-.banner-description{
-color: var(--Dark-03, #757575);
-font-size: 18px;
-font-weight: 400;
-line-height: 30px; /* 166.667% */
-margin-bottom: 30px;
+
+.banner-description {
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin-bottom: 30px;
 }
 
 /* main style */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
+main section{
+    margin-top:130px;
+}
 /* style about section */
-.about{
+.about {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px ;
+    margin: 130px;
 }
-.section-title{
-    color:  #181818;
-text-align: center;
-font-size: 35px;
-font-weight: 700;
-line-height: normal;
-margin-bottom: 0px;
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0px;
 }
-.section-description{
-color:  #757575;
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px; /* 166.667% */
-margin-top: 30px;
-margin-bottom: 30px;
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
     margin-right: 50px;
 }
-.info-title{
-    color:  #757575;
-text-align: center;
 
-font-size: 20px;
+.info-title {
+    color: #757575;
+    text-align: center;
 
-font-weight: 400;
-line-height: 30px; /* 150% */
+    font-size: 20px;
+
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
 }
 
-.info-description{
-color:  #474747;
-font-size: 20px;
-font-weight: 700;
-line-height: 30px;
+.info-description {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
 }
 
 /* skills container style */
-.skills-container{
+.skills-container {
     display: flex;
+    gap: 24px;
+}
+
+.skills {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-desckrition{
+    color: #757575;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+}
+.resume-column-title{
+    color:  #474747;
+font-size: 30px;
+font-weight: 700;
 }
